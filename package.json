@@ -1,0 +1,32 @@
+{
+  "name": "node-redis",
+  "version": "1.0.0",
+  "description": "Simple user management app with NodeJS, ExpressJS and Redis",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/0xchamin/Node-Redis.git"
+  },
+  "keywords": [
+    "NodeJS",
+    "ExpressJS",
+    "Redis"
+  ],
+  "author": "Chamin Nalinda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0xchamin/Node-Redis/issues"
+  },
+  "homepage": "https://github.com/0xchamin/Node-Redis#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "method-override": "^2.3.10",
+    "redis": "^2.8.0"
+  }
+}
